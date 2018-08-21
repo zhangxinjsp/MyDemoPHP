@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo json_encode($array);
 //        echo 'args:' . $_POST['args'] . ' ; FirstName:' . $_POST['FirstName'] . ' ; LastName:' . $_POST['LastName'] . ' ; Age:' . $_POST['Age'];
-//        $_FILES['args']['name']上传文件是需要用到
+//        $_FILES['args']['name']上传文件时需要用到
     }
 }
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
