@@ -67,3 +67,42 @@ foreach($age as $x=>$x_value)
     echo "Key=" . $x . ", Value=" . $x_value;
     echo "<br>";
 }
+
+echo "<br>";
+/*
+ * PHP - 多维数组
+ * 多维数组是包含一个或多个数组的数组。
+ * 在多维数组中，主数组中的每一个元素也可以是一个数组，子数组中的每一个元素也可以是一个数组。
+ */
+
+$sites = array 
+( 
+    "runoob"=>array 
+    ( 
+        "菜鸟教程", 
+        "http://www.runoob.com" 
+    ), 
+    "google"=>array 
+    ( 
+        "Google 搜索", 
+        "http://www.google.com" 
+    ), 
+    "taobao"=>array 
+    ( 
+        "淘宝", 
+        "http://www.taobao.com" 
+    ) 
+); 
+echo $sites;
+
+// 格式化输出数组 
+print("<pre>"); 
+print_r($sites); 
+print("</pre>"); 
+
+echo $sites['google'][0] . '<br>地址为：' . $sites['google'][1];
+
+
+
+
+?>

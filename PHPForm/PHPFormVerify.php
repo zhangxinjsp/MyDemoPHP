@@ -162,6 +162,6 @@ echo $comment . "<br>";
 
 if (!empty($name)) {
     //重定向，页面跳转
-    header("location:welcome.php");    
+    header("location:../PHPBasic/welcome.php");    
 }
 ?>
