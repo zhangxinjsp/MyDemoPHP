@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <?php
-
 $aaaaa = 'aaaaa';
 
 echo '
@@ -9,6 +8,8 @@ echo '
     <a href="PHPBasic/Date.php">日期时间</a> 
     <br>
     <a href="PHPBasic/Include.php">包含</a> 
+    <br>
+    <a href="PHPFile/PHPFile.php">文件处理</a> 
     <br>
     <a href="PHPForm/PHPForm.html">表单</a> 
     <br>
